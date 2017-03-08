@@ -1,0 +1,12 @@
+{
+  "name": "spa-sample-app",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "nodemon -L --debug=5870 server.js"
+  },
+  "dependencies": {
+    "node-app-core": "file:///home/scotthuey/projects/phoenix/node-app-core",
+    "rethinkdb": "^2.3.3",
+    "rethinkdbdash": "^2.3.26"
+  }
+}
